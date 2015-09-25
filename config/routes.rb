@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  resources :doses
+  resources :ingredients
+  resources :cocktails
   resources :articles
   root 'articles#index'
 
